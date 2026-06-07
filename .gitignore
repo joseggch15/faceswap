@@ -11,3 +11,27 @@ __pycache__/
 # Imágenes personales de Skin (Opcional: borra esta línea si quieres subir tu imagen de prueba)
 skin.jpg
 skin.png
+
+# --- MODELOS DE IA (Lo más importante para evitar peso innecesario) ---
+*.onnx
+*.pth
+*.pt
+*.bin
+*.h5
+
+# --- CARPETAS DE CACHÉ DE INSIGHTFACE Y MODELOS ---
+.insightface/
+models/
+
+# --- ARCHIVOS DE SISTEMA (Evita basura de Windows/Mac) ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- ARCHIVOS DE CONFIGURACIÓN DE VS CODE ---
+.vscode/
+
+# --- ARCHIVOS DE REGISTRO Y DOCKER (Si llegas a usarlos) ---
+*.log
+Dockerfile
+.dockerignore
