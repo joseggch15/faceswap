@@ -1,0 +1,13 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Imágenes personales de Skin (Opcional: borra esta línea si quieres subir tu imagen de prueba)
+skin.jpg
+skin.png
